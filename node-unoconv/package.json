@@ -1,0 +1,49 @@
+{
+  "name": "node-unoconv",
+  "version": "1.0.5",
+  "description": "Lightweight NodeJS wrapper for unoconv, a Universal Office Converter.",
+  "license": "MIT",
+  "author": "Damian Bartosik <hello@damianbartosik.com> (https://damianbartosik.com)",
+  "homepage": "https://github.com/damian66/node-unoconv#readme",
+  "main": "dist/index.js",
+  "types": "./src/types.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/damian66/node-unoconv.git"
+  },
+  "keywords": [
+    "unoconv",
+    "office",
+    "libreoffice",
+    "openoffice"
+  ],
+  "bugs": {
+    "url": "https://github.com/damian66/node-unoconv/issues"
+  },
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "lint": "eslint src/**/*.ts",
+    "test": "jest",
+    "publish": "npm run build & npm publish"
+  },
+  "dependencies": {
+    "debug": "^4.3.4"
+  },
+  "devDependencies": {
+    "@tsconfig/recommended": "^1.0.1",
+    "@types/debug": "^4.1.7",
+    "@types/jest": "^28.1.1",
+    "@typescript-eslint/eslint-plugin": "^5.27.1",
+    "@typescript-eslint/parser": "^5.27.1",
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "husky": "^8.0.1",
+    "jest": "^28.1.1",
+    "ts-jest": "^28.0.4",
+    "typescript": "^4.7.3"
+  }
+}
