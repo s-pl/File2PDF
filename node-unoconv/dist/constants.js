@@ -27,6 +27,7 @@ exports.COMMAND_ARGUMENTS = {
     unsafeQuietUpdate: '--unsafe-quiet-update',
     userProfile: '--user-profile',
     verbose: '--verbose',
+    healess: '--headless'
 };
 exports.DEFAULT_OPTIONS = {
     format: 'pdf',
